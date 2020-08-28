@@ -5,7 +5,12 @@ __version__ = "0.1.4"
 import fnmatch
 import threading
 import time
-import xmlrpclib
+import sys
+
+if sys.version_info[0] == 2:
+    import xmlrpclib
+else:
+    import xmlrpc.client as xmlrpclib
 
 from supervisor.supervisorctl import ControllerPluginBase
 
