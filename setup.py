@@ -13,7 +13,7 @@ setup(
     maintainer_email="m17.admin@gmail.com",
     py_modules=["supervisor_quick", ],
     package_data={"": ["LICENSE"], },
-    url="https://github.com/sergeykolosov/supervisor-quick",
+    url="https://github.com/inonoob/supervisor-quick",
     license="MIT",
     long_description=open("README.rst").read(),
     install_requires=[
